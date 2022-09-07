@@ -11,5 +11,6 @@ menu.addEventListener('click',() => {
 cancel.addEventListener('click',() =>{
   secondSection.style.display = 'block'
   firstSection.style.display = 'none'
-  thirdSection.style.display = 'block'
+  thirdSection.style.display = 'none'
 })
+
