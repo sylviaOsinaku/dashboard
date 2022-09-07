@@ -1,0 +1,302 @@
+body{
+  background-color: white;
+}
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: navy;
+}
+
+main{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 50px;
+  padding: 2em 2em ;
+}
+.third-section{
+ padding-right: 1.5em;
+}
+.sideContainer{
+  padding-bottom: 10em;
+}
+h1{
+  font-size: 1rem;
+  padding-bottom: 1em;
+}
+.h-r{
+  width: 10%;
+  vertical-align: middle;
+}
+.sideBarImage{
+  max-width: 7%;
+  vertical-align: middle;
+  margin-right: 1em;
+}
+.dashboard{
+  font-size: .8rem;
+  padding-bottom: 2em;
+  color: grey;
+  transition: color 0.15s;
+}
+.dashboard:hover{
+  cursor: pointer;
+  color: navy;
+}
+.line1{
+  width: 150px;
+  height: .1em;
+ background-color: gray;
+ margin-bottom: 2em;
+}
+.line2{
+  width: 400px;
+  height: .1em;
+ background-color: gray;
+ margin-bottom: 2em;
+}
+input{
+  background-image: url(images/search-outline.svg);
+  background-repeat: no-repeat;
+  border: none;
+  border-bottom: 2px solid gray;
+  padding-left: 20px;
+}
+.line3{
+  width: 100px;
+  height: .1em;
+ background-color: gray;
+ margin-bottom: 2em;
+}
+.k-f{
+  margin-left: 3em;
+}
+.f-a{
+  font-size: 1rem;
+  padding-bottom: 2em;
+}
+.money{
+  text-align: end;
+  font-size: 1rem;
+}
+.f-b{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 10px;
+  font-size: .85rem;
+  color: lightblue;
+}
+.r-r{
+  color: green;
+ font-size: .6rem;
+ text-align: end;
+ padding-bottom: .2em;
+}
+.r-l{
+  width: 10%;
+}
+
+.r-f{
+  font-size: .6rem;
+  text-align: end;
+  padding-bottom: .8em;
+}
+.k-r{
+  color: grey;
+}
+.statsDiv{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 15px;
+  font-weight: bolder;
+}
+h3{
+  padding-bottom: 4em;
+  font-size: .8rem;
+}
+.c-a{
+  padding-top: 1.5em;
+  font-weight: bold;
+}
+.c-b{
+  color: rgb(0, 90, 128);
+  margin-left: 2em;
+  font-weight: normal;
+}
+.h-h{
+  width: 7%;
+  margin-left: 4px;
+}
+.stats1{
+  background-color: lightblue;
+  padding: 1em;
+}
+.stats2{
+  background-color: lightgoldenrodyellow;
+  padding: 1em;
+}
+.stats3{
+  background-color: lightcoral;
+  padding: 1em;
+}
+.stats4{
+  background-color: lightsalmon;
+  padding: 1em;
+}
+
+.h-a{
+  display: grid;
+  flex-direction: column;
+  padding-top: 1.5em;
+}
+h4{
+  font-size: .8rem;
+}
+.h-b{
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 1.5em;
+}
+
+.h-d{
+  color: rgb(0, 90, 128);
+  font-size: .7rem;
+}
+.line4{
+  width: 250px;
+  height: .1em;
+ background-color: gray;
+ margin-bottom: 2em;
+}
+.g-a{
+  padding-bottom: .8em;
+  text-align: end;
+  cursor: pointer;
+}
+.h-c{
+  max-width: 100%;
+  position: relative;
+}
+
+.l-c{
+  display: flex;
+  justify-content: space-between;
+  font-size: .7rem;
+  padding-bottom: 2em;
+  padding-top: 1.7em;
+}
+.k-a{
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1em;
+  background-color: lightgoldenrodyellow;
+}
+.k-c{
+  margin-top: 1.5em;
+  display: grid;
+ grid-template-columns: 1fr 1fr;
+ column-gap: 10px;
+  text-align: center;
+}
+.k-d{
+  padding: 1.5em;
+  background-color: lightsalmon;
+}
+h6{
+font-size: x-large;
+}
+
+.k-e{
+  background-color: lightblue;
+  padding: 1.5em;
+}
+.k-k{
+  font-size: large;
+}
+.r-e{
+  padding-bottom: 1.5em;
+} 
+.r-g{
+  padding-bottom: 1.5em;
+  color: black;
+}
+.h-i{
+  max-width: 30%;
+}
+.k-h{
+  font-weight: bolder;
+  font-size: larger;
+  color: black;
+}
+.k-v{
+  vertical-align: middle;
+  width: 20%;
+  padding-left: 5px;
+}
+img{
+  object-fit: contain;
+}
+.h-k{
+  width: 7%;
+  margin-left: 5px;
+  border-radius: 50%;
+}
+.r-b{
+  font-size: .7rem;
+}
+button{
+  background-color: navy;
+  color: white;
+  padding: .6em .85em;
+  font-size: .6rem;
+  border: none;
+  cursor: pointer;
+  transition: color 0.15s background-color 0.15s;
+}
+button:hover{
+  color:navy;
+  background-color: white;
+  border: 1.5px navy solid;
+}
+.r-d{
+  padding-top: .2em;
+  font-size: .7rem;
+  text-align: center;
+}
+.menu{
+  display: none;
+  cursor: pointer;
+}
+.cancel{
+  display: none;
+  cursor: pointer;
+}
+@media  (max-width:420px){
+  main{
+  grid-template-columns: 1fr;
+  }
+  .first-section{
+    display: none;
+  }
+  .second-section{
+    padding-right:1em ;
+  }
+  .menu{
+    display: block;
+    width: 7%;
+    float: right;
+  }
+  .cancel{
+    display: block;
+    width: 10%;
+    float: right;
+  }
+  .g-a{
+    text-align: center;
+    padding-bottom: 0;
+  }
+  .line4{
+    margin-bottom: 1em;
+  }
+}
